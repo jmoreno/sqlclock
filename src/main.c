@@ -351,7 +351,7 @@ static void handle_minute_tick(struct tm* tick_time, TimeUnits units_changed) {
 
   static char sql_layer_text[250];
   
-  strcpy(sql_layer_text,"SQLCODE not found. Wait a minute... ;)");
+  strcpy(sql_layer_text,"This time doesn't seem to be a SQLCODE. Wait for the next minute. ;)");
 
   for (int i=0; i < sql_elements ; i++)
   {
