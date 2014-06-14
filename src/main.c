@@ -378,14 +378,14 @@ static void do_init(void) {
   window_set_background_color(window, GColorBlack);
 
   // Init the text layer used to show the time
-  time_layer = text_layer_create(GRect(0, 0, 144 /* width */, 32 /* height */));
+  time_layer = text_layer_create(GRect(0, 0, 144 /* width */, 46 /* height */));
   text_layer_set_text_color(time_layer, GColorWhite);
   text_layer_set_background_color(time_layer, GColorClear);
-  text_layer_set_font(time_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
+  text_layer_set_font(time_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
   text_layer_set_text_alignment(time_layer, GTextAlignmentCenter);
 
   // Init the text layer used to show the time
-  sql_layer = text_layer_create(GRect(5, 32, 144-10 /* width */, 168-32 /* height */));
+  sql_layer = text_layer_create(GRect(5, 46, 144-10 /* width */, 168-46 /* height */));
   text_layer_set_text_color(sql_layer, GColorWhite);
   text_layer_set_background_color(sql_layer, GColorClear);
   text_layer_set_font(sql_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
