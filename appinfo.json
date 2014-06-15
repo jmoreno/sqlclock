@@ -1,18 +1,18 @@
 {
-    "shortName": "SQLClock",
-    "versionCode": 1,
-    "watchapp": {
-        "watchface": true
+    "resources": {
+        "media": []
     },
+    "versionCode": 1,
+    "shortName": "SQLClock",
     "capabilities": [
         ""
     ],
     "versionLabel": "1.0",
-    "companyName": "jmoreno.zn@gmail.com",
     "longName": "SQLClock",
-    "appKeys": {},
     "uuid": "768fc697-3b70-48bf-93bd-86aff7d4a3da",
-    "resources": {
-        "media": []
+    "appKeys": {},
+    "companyName": "jmoreno.zn@gmail.com",
+    "watchapp": {
+        "watchface": true
     }
 }
