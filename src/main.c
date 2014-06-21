@@ -8,7 +8,6 @@
 #include "pebble.h"
 #include "sqlcode.h"
 
-
 // App-specific data
 Window *window; // All apps must have at least one window
 TextLayer *time_layer; // The clock
