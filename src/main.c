@@ -55,7 +55,7 @@ static void do_init(void) {
   sql_layer = text_layer_create(GRect(5, 46, 144-10 /* width */, 168-46 /* height */));
   text_layer_set_text_color(sql_layer, GColorWhite);
   text_layer_set_background_color(sql_layer, GColorClear);
-  text_layer_set_font(sql_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
+  text_layer_set_font(sql_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14_BOLD));
 
   // Ensures time is displayed immediately (will break if NULL tick event accessed).
   // (This is why it's a good idea to have a separate routine to do the update itself.)

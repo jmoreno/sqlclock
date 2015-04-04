@@ -1,16 +1,11 @@
 {
-    "companyName": "jmoreno.zn@gmail.com",
-    "longName": "SQLClock",
-    "versionLabel": "1.0",
-    "uuid": "768fc697-3b70-48bf-93bd-86aff7d4a3da",
     "appKeys": {},
-    "shortName": "SQLClock",
     "capabilities": [
         ""
     ],
-    "watchapp": {
-        "watchface": true
-    },
+    "companyName": "jmoreno.zn@gmail.com",
+    "longName": "SQLClock",
+    "projectType": "native",
     "resources": {
         "media": [
             {
@@ -20,5 +15,12 @@
             }
         ]
     },
-    "versionCode": 1
+    "sdkVersion": "2",
+    "shortName": "SQLClock",
+    "uuid": "768fc697-3b70-48bf-93bd-86aff7d4a3da",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
 }
